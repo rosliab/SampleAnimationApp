@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7796fa"
+    tools:context="com.scs.animationapp.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:background="#07103d"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:text="Nampakkkkk !!!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="208dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnFadeIn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="11dp"
+        android:background="@drawable/button"
+        android:freezesText="false"
+        android:text="Fade In"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/btnFadeOut"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="70dp"
+        android:background="@drawable/button"
+        android:text="Fade Out"
+        android:textSize="11sp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnZoomIn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="130dp"
+        android:background="@drawable/button"
+        android:text="Zoom In"
+        android:textSize="11sp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnZoomOut"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="190dp"
+        android:background="@drawable/button"
+        android:text="Zoom Out"
+        android:textSize="11sp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnMotion"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="250dp"
+        android:background="@drawable/button"
+        android:text="Motion"
+        android:textSize="11sp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnRotation"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="310dp"
+        android:background="@drawable/button"
+        android:text="Rotation"
+        android:textSize="11sp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
